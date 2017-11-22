@@ -1,0 +1,22 @@
+{
+    "name": "sculpt",
+    "displayName": "Sculpt Theme",
+    "description": "Theme for Visual Studio Code",
+    "version": "0.1.0",
+    "publisher": "ibourgeois",
+    "engines": {
+        "vscode": "^1.18.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Sculpt",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Sculpt-color-theme.json"
+            }
+        ]
+    }
+}
